@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "7d83a028-47b3-426b-83f8-e4a02c4b5950",
+		"_postman_id": "79289618-50df-4145-8ad8-ab917beb3199",
 		"name": "REST - Library Demo",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "19263256"
@@ -136,7 +136,7 @@
 						}
 					],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -217,7 +217,7 @@
 						}
 					],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -298,7 +298,7 @@
 						}
 					],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -379,7 +379,7 @@
 						}
 					],
 					"cookie": [],
-					"body": null
+					"body": ""
 				}
 			]
 		},
@@ -389,14 +389,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/books",
+					"raw": "http://localhost:8080/book/2",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
-						"books"
+						"book",
+						"2"
 					]
 				}
 			},
